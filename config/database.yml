@@ -17,12 +17,12 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: d9a6o6s712tfk4
+  database: ac_development
   pool: 5
-  username: bhswwemaibavgv
-  password: sPtz8DpU1fNNTnCYLdx0eX1Gws
-  host: ec2-54-227-238-25.compute-1.amazonaws.com
-  port: 5432
+  username: postgres
+  password: 'cs*marx*26041989'
+  host: localhost
+
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -47,19 +47,18 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
+  database: ac_test
   pool: 5
-  database: d9a6o6s712tfk4
-  username: bhswwemaibavgv
-  password: sPtz8DpU1fNNTnCYLdx0eX1Gws
-  host: ec2-54-227-238-25.compute-1.amazonaws.com
-  port: 5432
+  username: postgres
+  password: 'cs*marx*26041989'
+  host: localhost
+
 
 production:
   adapter: postgresql
   encoding: unicode
+  database: ac_production
   pool: 5
-  database: d33snb01ts7uvr
-  username: olaxudgfmgsyos
-  password: E8YD1ZRbQvNU9YMlvdzVf1BEym
-  host: ec2-54-227-238-25.compute-1.amazonaws.com
-  port: 5432
+  username: postgres
+  password: 'cs*marx*26041989'
+  host: localhost
