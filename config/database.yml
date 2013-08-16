@@ -17,11 +17,16 @@
 development:
   adapter: postgresql
   encoding: unicode
+<<<<<<< Updated upstream
   database: adc_development
+=======
+>>>>>>> Stashed changes
   pool: 5
-  username: postgres
-  password: 'cs*marx*26041989'
-  host: localhost
+  database: dd6ef9li7shukg
+  username: nnytodkqhqqelw
+  password: chpgRTysNQCL_ZKklSjCCdSPlU
+  host: ec2-54-227-238-25.compute-1.amazonaws.com
+  port: 5432
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -47,18 +52,27 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
+<<<<<<< Updated upstream
   database: adc_test
+=======
+>>>>>>> Stashed changes
   pool: 5
-  username: postgres
-  password: 'cs*marx*26041989'
-  host: localhost
-
+  database: d33snb01ts7uvr
+  username: olaxudgfmgsyos
+  password: E8YD1ZRbQvNU9YMlvdzVf1BEym
+  host: ec2-54-227-238-25.compute-1.amazonaws.com
+  port: 5432
 
 production:
   adapter: postgresql
   encoding: unicode
+<<<<<<< Updated upstream
   database: adc_production
+=======
+>>>>>>> Stashed changes
   pool: 5
-  username: postgres
-  password: 'cs*marx*26041989'
-  host: localhost
+  database: d9a6o6s712tfk4
+  username: bhswwemaibavgv
+  password: sPtz8DpU1fNNTnCYLdx0eX1Gws
+  host: ec2-54-227-238-25.compute-1.amazonaws.com
+  port: 5432
