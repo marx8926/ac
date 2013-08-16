@@ -17,10 +17,6 @@
 development:
   adapter: postgresql
   encoding: unicode
-<<<<<<< Updated upstream
-  database: adc_development
-=======
->>>>>>> Stashed changes
   pool: 5
   database: dd6ef9li7shukg
   username: nnytodkqhqqelw
@@ -52,10 +48,6 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-<<<<<<< Updated upstream
-  database: adc_test
-=======
->>>>>>> Stashed changes
   pool: 5
   database: d33snb01ts7uvr
   username: olaxudgfmgsyos
@@ -66,10 +58,6 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-<<<<<<< Updated upstream
-  database: adc_production
-=======
->>>>>>> Stashed changes
   pool: 5
   database: d9a6o6s712tfk4
   username: bhswwemaibavgv
