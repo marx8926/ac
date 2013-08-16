@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: ac_development
+  database: adc_development
   pool: 5
   username: postgres
   password: 'cs*marx*26041989'
@@ -47,7 +47,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: ac_test
+  database: adc_test
   pool: 5
   username: postgres
   password: 'cs*marx*26041989'
@@ -57,7 +57,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: ac_production
+  database: adc_production
   pool: 5
   username: postgres
   password: 'cs*marx*26041989'
